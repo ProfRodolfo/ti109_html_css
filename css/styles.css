@@ -1,0 +1,123 @@
+p {
+    color: blueviolet;
+}
+
+/* Sou um comentário*/
+/* mais comentário 
+de
+multiplas linhas
+*/
+
+/* 08 - Class */
+.paragrafo {
+    background-color: #000;
+    color: aqua;
+    padding: 5px;
+}
+
+/*  09 - Utilizando ID  */
+
+#exclive-title{
+    background-color: purple;
+    color: yellow; 
+    padding: 10px;
+    font-size: 40px;
+}
+
+/* 10 multiplas regra */
+
+h2{
+    border-bottom: 2px solid red; 
+}
+.titulo{
+    border-bottom: 3px solid blue;
+}
+#algum-titulo{
+    border-bottom: 4px solid green;
+}
+
+/* 11 */
+
+.color-name{
+    border-bottom: 4px solid green;
+  
+}
+
+/* 12 hex */
+
+.hex {
+    color: #55a398;
+}
+.hex-2 {
+    color: #00eaff;
+}
+
+/*  13 hex resumido*/
+
+.simple-hex{
+    /* color: #333333; */
+    color: #333
+}
+.simple-hex-2{
+    /* color: #aa55ff; */
+    color: #a5f;
+
+}
+
+/* 14 rgb  */
+
+.rgb{
+    color: rgb(255,0,0)
+}
+
+.rgba{
+    color: rgba(255,0,0, 0.2)
+}
+
+/* 16 hsl  */
+
+.hsl{
+    color: hsl(201, 82%, 48%)
+}
+
+/* 17 background - color */
+
+.bg{
+    background-color: #000;
+    color: yellow;
+}
+
+.bg-2{
+    background-color: rgb(200, 20, 40);
+    color:#0eaf;
+    /* color: #00eaff; */
+}
+
+/* 18 opacidade no bg */
+
+.bg-opacity{
+    background-color: green;
+    opacity: 0.2;
+}
+
+.rgba-opacity{
+    background-color: rgba(90, 120, 20, 0.2);
+}
+
+.bg-image{
+    background-image: url("../img/nature.jpg");
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+.not-centered-bg, 
+.centered-bg {
+    height: 400px;
+    width: 400px;
+    background-image: url("../img/bridge.jpg");
+}
+
+.centered-bg {
+    background-position: center ;
+}
