@@ -304,3 +304,224 @@ h2 {
     border: 1px dotted red;
     padding: 20px;
 }
+
+/* 34 */
+
+.underline{
+    text-decoration: underline;
+}
+.line-trough{
+    text-decoration: line-through;
+}
+
+.remover-underline{
+    text-decoration: none;
+}
+/* 35 */
+
+.upper{
+    text-transform: uppercase;
+}
+
+.lower{
+    text-transform: lowercase;
+}
+
+/* 36 */
+.spacing{
+    letter-spacing: 5px;
+}
+
+/* 37 */
+
+.f1{
+    font-family: Georgia;
+}
+.f2{
+    font-family: Helvetica;
+}
+.f3{
+    font-family: "Courier New";
+}
+.f4{
+    font-family: cursive;
+}
+.f5{
+    font-family: fantasy;
+}
+
+/* 38 */
+
+.italic{
+    font-style: italic;
+}
+.oblique{
+    font-style: oblique;
+}
+
+/* 39 */
+
+
+.thin,
+.bold,
+.bolder{
+    font-family: Helvetica;
+}
+
+
+.thin{
+    font-weight: 100;
+}
+.bold{
+    font-weight: 600;
+}
+.bolder{
+    font-weight: 900;
+}
+
+/* 40 */
+
+.small{
+    font-size: 6px;
+}
+
+.big{
+    font-size: 50px;
+}
+
+/* 41 */
+
+.inline-box{
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    margin: 10px;
+    display: inline-block;
+}
+
+.block{
+    background-color: #333;
+    margin: 10px;
+    color: #fff;
+    display: block;
+}
+
+/* 42 */
+
+.invisible{
+    display: none;
+}
+
+/* 43 */
+
+.static{
+    width: 100px;
+    height: 100px;
+    background-color: #4f8;
+    color:#fff;
+    position: static;
+}
+/* 44 */
+
+.relative{
+    position: relative;
+    background-color: #333;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 400px;
+    border: 2px solid red;
+
+}
+/* 45 */
+
+.absolute{
+
+    position:absolute; 
+    background-color: #399;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    top: 10px;
+    left: 40px;
+}
+
+/* 46 */
+
+.relative-container{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 120px;
+    position: relative;
+}
+
+.absolute-1,
+.absolute-2{
+    width: 50px;
+    height: 50px;
+    background-color: #399;
+    position: absolute;   
+}
+
+.absolute-1{
+    top: 10px;
+    left: 10px;
+}
+
+.absolute-2{
+    bottom: 10px;
+    right: 10px;
+}
+/* 47 */
+
+.fixed{
+    width: 30px;
+    height: 30px;
+    border: 1px solid red;
+    background-color: #a5f;
+    position: fixed;
+    top: 50px;
+    right: 100px;
+}
+
+/* 48 */
+
+.sticky{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: #994;
+    position: sticky;
+    top: 10px;
+
+}
+
+/* 49 */
+.absolute-3,
+.absolute-4,
+.absolute-5{
+    width: 50px;
+    height: 50px;
+    background-color: #123;
+    position: absolute;   
+}
+.absolute-3{
+    top:0;
+    left: 0;
+    z-index: 3;
+}
+.absolute-4{
+    top:10px;
+    left: 10px;
+    background-color: #00eaff;
+    z-index: 2;
+}
+.absolute-5{
+    top:40px;
+    left: 40px;
+    background-color: #382545;
+    z-index: 1;
+}
