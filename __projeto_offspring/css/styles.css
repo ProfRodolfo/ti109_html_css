@@ -38,5 +38,39 @@ html{
 }
 .quotes-container{
     background-color: #ddd;
-    font-size: 30px;  
+    padding: 30px;  
+}
+
+.quotes-container blockquote{
+   
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.quotes-container p{
+    font-style: italic;
+    text-align: right;
+}
+
+.curiosities-container{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;   
+}
+
+.curiosities-container li {
+    height: 30px;
+}
+
+.img-bold{
+   
+    font-weight: bold;
+    text-align: center;
+}
+
+.moreinfor-container{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;   
 }
