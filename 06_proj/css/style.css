@@ -108,9 +108,9 @@ nav {
 }
 
 .fas {
-    
     font-size: 60px;
     margin-bottom: 20px;
+    
 }
 
 .fa-shield-alt{
@@ -131,3 +131,67 @@ nav {
     line-height: 24px;
 }
 
+.pricing-container{
+    padding-bottom: 5rem ;
+    text-align: center;
+}
+.pricing-container h2{
+    font-size: 36px;
+}
+.pricing-container p{
+    font-size: 20px;
+}
+.plans-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto 0;
+}
+.plan {
+    flex: 1;
+    max-width: 275px;
+    margin: 0 20px;
+}
+
+.plan li{
+    background-color: #e8e9ea;
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    color: #333;
+
+}
+
+.plan .price{
+    background-color: #2cc762;
+    width: 120px;
+    height: 120px;
+    color:#fff;
+    text-align: center;
+    line-height: 120px;
+    margin: 0 auto -50px;
+    font-size: 18px;
+    position: relative;
+    border-radius: 50%;
+}
+.plan .plan-name{
+    background-color: #202b34;
+    padding: 50px 0;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.plan .plan-btn{
+    background-color: #2cc762;
+    color: #fff; 
+    font-size: 24px;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+}
+
+.plan .recommended{
+    background-color: #ef3f29;
+}
