@@ -125,4 +125,20 @@ body{
 }
 #register-container p{
     font-size: 14px;
+    color: #262626
 }
+
+#register-container a{
+    color:#4a95f6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#get-app-container{
+    text-align: center;
+    width: 350px;
+}
+#get-app-container p{
+    background-color: aqua;
+}
+
