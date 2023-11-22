@@ -78,14 +78,112 @@
 
 // console.log(Cachorro)
 
-class CachorroClasse {
-    constructor (nome, raca){
-        this.nome = nome;
-        this.raca = raca;
+// class CachorroClasse {
+//     constructor (nome, raca){
+//         this.nome = nome;
+//         this.raca = raca;
+//     }
+// }
+
+// const jeff = new CachorroClasse("Jeff", "Labrador")
+// console.log(jeff)
+// console.log(jeff.nome)
+// console.log(jeff.raca)
+
+
+// class Caminhao {
+//     constructor (eixos, cor) {
+//         this.eixos = eixos;
+//         this.cor = cor; 
+//     }
+//     descreverCaminhao() {
+//         console.log(
+//             `Este caminhão tem: ${this.eixos} eixos \n
+//              Este caminhão é da cor: ${this.cor} `
+//         );
+//     }
+// }
+
+// const scania= new Caminhao(6, "Vermelha");
+
+// scania.descreverCaminhao()
+
+// Caminhao.prototype.motor = 4.0;
+// console.log(Caminhao.motor);
+
+
+// // 11 - Override por prototype
+// class Humano {
+//     constructor(nome, idade){
+//         this.nome = nome;
+//         this.idade = idade;
+//     }
+// }
+
+// const rodox = new Humano("Rodolfo", 37);
+
+// console.log(rodox); 
+
+// Humano.prototype.idade = "Prefiro não comentar..";
+
+// console.log(rodox.idade); 
+// console.log(Humano.prototype.idade); 
+
+// class Aviao {
+//     constructor(marca, turbinas) {
+//         this.marca = marca; 
+//         this.turbinas = turbinas
+//     }
+// }
+
+
+// const asas = Symbol()
+// Aviao.prototype[asas] = 2; 
+
+
+// const boeing = new Aviao("Boeing", 10); 
+
+// console.log(boeing);
+// console.log(boeing[asas])
+// console.log(Aviao.prototype[asas]);
+
+
+// class Post {
+//     constructor (titulo, descricao, tags){
+//         this.titulo = titulo;
+//         this.descricao = descricao;
+//         this.tags = tags; 
+//     }
+//     get exibirTitulo () {
+//         return `Você está lendo: ${this.titulo}`;
+//     }
+//     set adicionar(tags){
+//         const tagsArray = tags.split(", "); 
+//         this.tags = tagsArray; 
+//     }
+// }
+
+// const myPost = new Post("Post 1", "È um post sobre programação"); 
+
+// console.log(myPost.exibirTitulo);
+
+// myPost.adicionar = "programação, javascript, js, C#, git";
+
+// console.log(myPost); 
+
+
+class Mamifero {
+    constructor(patas){
+        this.patas = patas;
     }
 }
 
-const jeff = new CachorroClasse("Jeff", "Labrador")
-console.log(jeff)
-console.log(jeff.nome)
-console.log(jeff.raca)
+class Lobo extends Mamifero {
+    constructor (patas, nome){
+        super(patas, patas);;
+        this.nome = nome;
+    }
+}
+
+const shark = new Lobo(4, "Shark");
+console.log(shark); 
